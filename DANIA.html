@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mensaje de Amor</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            margin-top: 50px;
+            background-color: #f8e7f3;
+            color: #333;
+        }
+
+        h1 {
+            color: #ff4081;
+            font-size: 30px;
+        }
+
+        button {
+            padding: 15px 30px;
+            font-size: 20px;
+            background-color: #ff4081;
+            color: white;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #ff80ab;
+        }
+
+        #mensaje {
+            font-size: 22px;
+            margin-top: 30px;
+            color: #ff4081;
+            text-align: left;
+            line-height: 1.6;
+            display: none;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 3s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Un Mensaje Para Ti, Dania</h1>
+    
+    <button onclick="mostrarMensaje()">Mostrar Mi Amor</button>
+
+    <div id="mensaje">
+        <p>Mi amor, no sé por dónde comenzar, porque cada palabra parece insuficiente para describir todo lo que siento por ti. Desde el primer momento que te conocí, supe que mi vida cambiaría para siempre, pero jamás imaginé que este amor tan grande nacería entre nosotros. Hoy, al mirarte, siento que soy la persona más afortunada del mundo. Gracias por cada risa, por cada abrazo, por cada día que hemos compartido. Todo lo que hemos vivido juntos me ha enseñado que el amor verdadero no es solo un sentimiento, sino un compromiso, una compañía, un refugio en los días difíciles.  
+        <br><br>
+        Cada momento contigo me hace sentir completo, y jamás quiero que me faltes. No solo eres mi amor, eres mi amiga, mi confidente, mi compañera de vida, y me haces más feliz de lo que jamás creí posible. Gracias por ser tú, por tu paciencia, por tu bondad, por tu luz. Gracias por darme la oportunidad de amarte.  
+        <br><br>
+        Te amo más de lo que las palabras pueden expresar y siempre, siempre te estaré agradecido por estar a mi lado. Mi vida sin ti no sería lo mismo, y por eso te pido, nunca me faltes, porque lo que hemos vivido juntos es lo que siempre soñé.  
+        <br><br>
+        ¡Te amo, mi amor, Dania! ❤️
+        </p>
+    </div>
+
+    <script>
+        function mostrarMensaje() {
+            document.getElementById("mensaje").style.display = "block";
+        }
+    </script>
+
+</body>
+</html>
